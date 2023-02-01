@@ -13,6 +13,7 @@ echo'
     <img src="'.$reponse['photo'].'" alt="Image 1">
     <br>
     <input type="hidden" name="id"  value="'.$reponse['id'].'">
+    <input type="hidden" name="user"  value="'.$reponse['user'].'">
     <input type="text" placeholder="Url Site web" value="'.$reponse['url'].'" name="url">
     <input type="email" placeholder="Email" value="'.$reponse['email'].'" name="email">
     <input type="text" id="passwordInput" placeholder="Password" value="'.$reponse['password'].'" name="password">

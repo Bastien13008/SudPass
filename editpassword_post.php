@@ -16,7 +16,7 @@ $id = $_POST['id'];
 $url = $_POST['url'];
 $mail = $_POST['email'];
 $password = $_POST['password'];
-$pseudo = $reponseuser['email']; 
+$pseudo = $_POST['user'];
 
 $test = "test"; 
 
