@@ -59,14 +59,8 @@
 						</button>
 					</div>
        
+					<a class="inscription" href="index.php">Se connecter</a>
 
-                    <div class="container-login100-form-btn">
-  <button class="login100-form-btn" onclick="window.location.href='index.php'">
-  Conexion
-  </button>
-</div>
-
-				
 				</form>
 			</div>
 		</div>

@@ -347,10 +347,40 @@ iframe {
   transition: all 0.4s;
 }
 
+a.inscription{
+  color: #4696b8 !important;
+  font-size: large;
+  font-weight: bolder;
+  line-height: 50px;
+  text-align: center;
+}
+
 .login100-form-btn:hover {
   background: #333333;
 }
 
+
+ .login50-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 25%;
+  height: 50px;
+  border-radius: 25px;
+  background: #4696b8;
+
+
+
+
+  transition: all 0.4s;
+}
+
+.login50-btn:hover {
+  background: #333333;
+}
 
 
 /*------------------------------------------------------------------
