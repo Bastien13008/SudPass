@@ -1,0 +1,145 @@
+.navbar {
+    background-color: #16191b;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 130px;
+    padding: 10px;
+  }
+
+body{
+  background: #282D34;
+
+}
+  
+
+  .navbar a {
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #444;
+  }
+  td {
+    text-align: center;
+  }
+  
+  .fa-car {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  form button[type="submit"],
+  form button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  p.box {
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button.box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  a.box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  div.box{
+    background-color: #16191b; 
+    width: 350px; 
+    height: 160px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  div.box2{
+    background-color: #16191b; 
+    width: 500px; 
+    height: 450px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  p.box3 {
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  button.box3 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  a.box3 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  div.box3{
+    background-color: #16191b; 
+    width: 350px; 
+    height: 140px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
