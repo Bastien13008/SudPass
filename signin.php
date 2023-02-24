@@ -1,4 +1,3 @@
-
 <?php
 require_once 'config.php'; 
 
@@ -22,6 +21,13 @@ if(isset($_POST['email']) && isset($_POST['password']))
             $_SESSION['email'] = $email;
             $_SESSION['id'] = $reponse['id'];
             $_SESSION['acces'] = 1;
+            
+            if (isset($_POST["remember_me"])) {
+              setcookie("remember_me", "true", time() + (10 * 365 * 24 * 60 * 60));
+            } else {
+              setcookie("remember_me", "", time() - 3600);
+            }
+            
             header('Location: home.php');
          }
          else
