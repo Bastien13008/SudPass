@@ -1,6 +1,7 @@
 <?php
 include 'navbar.php';
-$stmt = $bdd->prepare('SELECT * FROM user');
+$user = $_SESSION['email'];
+$stmt = $bdd->prepare('SELECT * FROM user  where email="'.$user.'"');
 $stmt->execute();
 $profilinfo = $stmt->fetch(PDO::FETCH_ASSOC);
 echo'
